@@ -1,0 +1,12 @@
+min = 1
+max = n
+
+while not correct
+  guess n/2
+  if guess is right
+  	correct
+  else if guess is too high
+  	max = guess - 1
+  else if guess is too low
+	min = guess + 1
+return guess
